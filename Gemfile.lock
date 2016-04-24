@@ -1,3 +1,11 @@
+PATH
+  remote: engines/parser_engine
+  specs:
+    parser_engine (0.0.1)
+      nokogiri
+      rails (~> 4.2.5)
+      sidekiq
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -162,12 +170,11 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  nokogiri
+  parser_engine!
   pry-rails
   rails (= 4.2.5)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  sidekiq
   spring
   sqlite3
   turbolinks

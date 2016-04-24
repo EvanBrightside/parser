@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160419142641) do
+ActiveRecord::Schema.define(version: 20160425005912) do
 
-  create_table "manuals", force: :cascade do |t|
+  create_table "parser_engine_manuals", force: :cascade do |t|
     t.string "pdf_url"
     t.string "page_url"
     t.text   "data"
